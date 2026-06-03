@@ -1029,6 +1029,6 @@ async def export_excel(analysis_json: str = Form(...)):
         return {"success":False,"error":str(e)}
 
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
